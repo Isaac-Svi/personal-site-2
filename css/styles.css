@@ -1,0 +1,131 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: #11999E;
+}
+hr {
+  border: none;
+  border-top: 8px dotted rgba(0,0,0,0.2);
+  margin: 100px auto;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 20px;
+}
+.top-container h2 {
+  font-weight: normal;
+  margin-top: 0;
+}
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  margin-left: -100px;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+.profile {
+  width: 30%;
+  margin: auto;
+  padding: 0 80px;
+}
+.profile img{
+  height: 200px;
+}
+.pro {
+  text-decoration: underline;
+}
+.round {
+  border-radius: 100%;
+}
+.skills {
+  padding: 0 50px;
+  padding-bottom: 0;
+}
+.skill-row {
+  width: 55%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.comp-image {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.chilly-image {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background-image: linear-gradient(#66bfbf 20%, #11999E);
+  border-radius: 8px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: relative;
+  top: 25px;
+}
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding-top: 25px;
+  margin: 20px 20px 10px 20px;
+  font-weight: bold;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+.bottom-container p {
+  font-family: "Merriweather", serif;
+  font-size: 0.75rem;
+  padding-top: 10px;
+  color: #eaf6f6;
+}
